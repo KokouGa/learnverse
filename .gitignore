@@ -1,0 +1,64 @@
+# .gitignore pour Django + VS Code
+
+### Django ###
+# Base de données locale
+*.sqlite3
+*.db
+
+# Fichiers de migration (conserver la structure)
+*/migrations/*.py
+!*/migrations/__init__.py
+
+# Environnement et dépendances
+.env
+.env.local
+.venv/
+venv/
+env/
+Pipfile
+Pipfile.lock
+pyproject.toml
+poetry.lock
+requirements/*.txt
+!requirements/base.txt
+
+# Fichiers générés
+*.pyc
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Fichiers statiques/médias
+staticfiles/
+media/
+
+### VS Code ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Debug
+debugpy.*
+
+### Python ###
+# Packaging
+build/
+dist/
+*.egg-info/
+
+# Tests
+.coverage
+htmlcov/
+.pytest_cache/
+test-results.xml
+
+### Système ###
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.log
+logs/

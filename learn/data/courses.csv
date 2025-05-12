@@ -1,0 +1,7 @@
+title,description,price,level,language,duration,instructor_email,category_slug
+Programmation Orientée Objet,Cours sur les bases de la POO.,80.78,intermediate,Anglais,29,michellefournier@example.com,programmation
+Introduction à la cybersécurité,Cours sur les bases de la cybersécurité.,44.39,intermediate,Français,37,yremy@example.com,cybersecurite
+Analyse de données avec Pandas,Utilisation de pandas pour traiter les données.,81.68,advanced,Français,21,matthieuguillon@example.com,data-science
+Histoire de la poésie française,Analyse des œuvres poétiques françaises.,48.67,beginner,Anglais,38,jacquelinefoucher@example.net,litterature
+Déploiement sur AWS,Introduction au déploiement cloud avec AWS.,41.28,intermediate,Français,27,rmichel@example.net,cloud-devops
+Introduction à ROS,Apprentissage de la base de ROS pour robotique.,86.00,beginner,Français,27,hugomoreau@example.com,robotique

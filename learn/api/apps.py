@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class LearnApiConfig(AppConfig):
+class ApiConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'learn_api'
+    name = 'api'

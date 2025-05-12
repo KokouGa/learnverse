@@ -43,6 +43,8 @@ media/
 # Debug
 debugpy.*
 
+
+
 ### Python ###
 # Packaging
 build/

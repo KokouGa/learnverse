@@ -37,6 +37,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    'rest_framework',
+    'mptt',  # MPTT for hierarchical data
+    'api',  # Your custom app
+
 ]
 
 MIDDLEWARE = [
